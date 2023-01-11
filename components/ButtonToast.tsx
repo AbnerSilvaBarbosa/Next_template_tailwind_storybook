@@ -1,11 +1,12 @@
 /* eslint-disable indent */
-import { defaulT, erroR, info, success, warning } from "../scripts/funcsToasts";
-
+import { defaulT, erroR, info, success, warning } from "../scripts/funcsToasts"
 
 function ButtonToast() {
 	return (
 		<div className="mt-5">
-			<button onClick={defaulT} className="
+			<button
+				onClick={defaulT}
+				className="
 
 			bg-gradient-to-t 
 			from-purple-800 
@@ -16,12 +17,10 @@ function ButtonToast() {
 
 			rounded-md 
 			p-2">
-
 				Teste Toast
-
 			</button>
 		</div>
-	);
+	)
 }
 
-export default ButtonToast;
+export default ButtonToast

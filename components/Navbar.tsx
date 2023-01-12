@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Navbar() {
 	return (
 		<nav className="fixed top-0 left-0 flex justify-around text-white w-full shadow-sm shadow-sky-400 bg-black ">
@@ -6,10 +8,10 @@ function Navbar() {
 
 				<ul className="hidden md:flex items-center  text-base font-semibold cursor-pointer">
 					<li className="hover:border-b-2 hover:border-sky-600 py-1 px-6">
-						Home
+						<Link href="/">Home</Link>
 					</li>
 					<li className="hover:border-b-2 hover:border-sky-600 py-1 px-6">
-						Contact
+						<Link href="/forms">Forms</Link>
 					</li>
 					<li className="hover:border-b-2 hover:border-sky-600 py-1 px-6">
 						Services
@@ -43,7 +45,7 @@ function Navbar() {
 				</button>
 			</div>
 		</nav>
-	)
+	);
 }
 
-export default Navbar
+export default Navbar;

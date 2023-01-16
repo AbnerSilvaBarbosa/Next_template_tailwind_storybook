@@ -2,8 +2,5 @@
     "useTabs": true,
     "tabWidth": 4,
     "singleQuote": false,
-    "endOfLine": "auto",
-    "bracketSameLine": true,
-    "bracketSpacing": true,
     "semi": true
 }
